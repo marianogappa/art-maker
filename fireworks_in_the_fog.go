@@ -135,14 +135,14 @@ type point struct {
 }
 
 func drawFireworksInTheFog() {
-	sizeX := 250
-	sizeY := 250
+	sizeX := 800
+	sizeY := 800
 
 	rnd := rand.New(rand.NewSource(time.Now().Unix()))
 
 	pc := 10
 	points := make([]point, pc)
-	thr := float64(25)
+	thr := float64(450)
 
 	// place circles evenly
 	// 	timeout := 20000
